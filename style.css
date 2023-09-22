@@ -341,7 +341,7 @@ body {
 
 .our-blog {
   background-color: #f5f2eb;
-  padding-bottom: 4rem;
+  padding-bottom: 5rem;
 }
 
 .blog-content {
@@ -353,6 +353,7 @@ body {
   background-color: #eee7dd;
   border-radius: 10px;
   overflow: hidden;
+  padding-bottom: 1rem;
 }
 .card img {
   width: 100%;
@@ -385,4 +386,28 @@ body {
   text-align: center;
   padding: 2rem 0;
   line-height: 1.6;
+}
+
+.read:link {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #ddad28;
+}
+
+.icon-sm {
+  transform: translate(-24%, 24%);
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  justify-content: center;
+  border-top: 1px solid #33333550;
+  padding-top: 1rem;
+}
+
+.social p {
+  font-size: 1rem;
+  color: #1d120c;
 }
