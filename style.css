@@ -225,6 +225,7 @@ body {
 .form-text {
   display: inline-block;
   padding: 0.8rem;
+  border: 1px solid #1d120c;
 }
 
 .form-details {
@@ -232,6 +233,7 @@ body {
   grid-template-columns: repeat(2, 1fr);
   column-gap: 2rem;
   row-gap: 1rem;
+  padding-bottom: 3rem;
 }
 
 .form-text::placeholder {
@@ -243,8 +245,96 @@ body {
   width: 21%;
   font-size: 1rem;
 }
-.selected-box {
-  font-size: 1rem;
-  width: 21%;
-  padding: 0.8rem;
+
+.column-span {
+  grid-column: span 2;
+  margin: 0 auto;
+}
+
+.message[type="text"] {
+  width: 27rem;
+  height: 5rem;
+}
+
+.section-testimonial {
+  background-color: #f5f2eb;
+}
+
+.customer-text {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.icon {
+  height: 2rem;
+  width: 2rem;
+  color: #1d120c;
+}
+
+.customers {
+  width: 65%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding-bottom: 4rem;
+}
+
+.customer {
+  background-color: #eee7dd;
+  padding: 2rem;
+}
+
+.customer-name {
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding-top: 1rem;
+}
+
+.coffee-beans-2 {
+  background-image: url(./img/coffee-beans-.jpg);
+  height: 40rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.center-box {
+  width: 75rem;
+  background-color: #000;
+  position: absolute;
+  left: 18%;
+  top: 15%;
+  padding: 2rem;
+  text-transform: uppercase;
+  line-height: 1.4;
+  border: 2px solid transparent;
+  outline: 2px dashed #ddad28;
+  outline-offset: -1rem;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 1);
+}
+
+.title {
+  font-size: 3rem;
+  color: #fff;
+  padding-bottom: 2rem;
+}
+.sale {
+  font-size: 2.6rem;
+  color: #fff;
+}
+
+.perc {
+  color: #ddad28;
+}
+
+.sale-img img {
+  width: 100%;
+}
+
+.center-box {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
 }
