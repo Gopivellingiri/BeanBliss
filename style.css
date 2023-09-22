@@ -338,3 +338,46 @@ body {
   grid-template-columns: 2fr 1fr;
   align-items: center;
 }
+
+.our-blog {
+  background-color: #f5f2eb;
+  padding-bottom: 4rem;
+}
+
+.blog-content {
+  width: 75rem;
+  margin: 0 auto;
+}
+
+.card img {
+  width: 100%;
+}
+.blog-text {
+  padding-top: 1rem;
+}
+
+.blog-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #1d120c;
+  padding-bottom: 1rem;
+}
+
+.blog-para {
+  font-size: 1rem;
+  line-height: 1.6;
+  padding-bottom: 1rem;
+}
+
+.blog-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.menu-para-1 {
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 2rem 0;
+  line-height: 1.6;
+}
