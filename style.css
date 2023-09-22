@@ -349,11 +349,16 @@ body {
   margin: 0 auto;
 }
 
+.blog-card-content {
+  background-color: #eee7dd;
+  border-radius: 10px;
+  overflow: hidden;
+}
 .card img {
   width: 100%;
 }
 .blog-text {
-  padding-top: 1rem;
+  padding: 1rem;
 }
 
 .blog-title {
